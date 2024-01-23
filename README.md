@@ -1,4 +1,4 @@
 # card-draw
-UI for drawing cards. Block rotation
+UI for drawing cards. Block rotation.
 
-UPDATE EXPECTED
+I never cared about the design of this template.
