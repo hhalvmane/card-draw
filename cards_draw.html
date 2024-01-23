@@ -2,93 +2,133 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 3s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card.flipped .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #a3ffb3;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: #ba9dff;
-  color: white;
-  transform: rotateY(180deg);
-}
-</style>
+<title>CARDS DRAW</title>
+<link rel="icon" type="image/x-icon" href="media/purple_heart-removebg-preview.png">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<div class="flip-card" onclick="this.classList.toggle('flipped')">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <h1 style="width:300px;height:300px;" >Click to open</h1>
+<h1>Pick a card</h1>
+<hr >
+<div class="container"><h4>Hello! <br> You need to pick a card and click on it to see what's hiding on the other side. </h4></div>
+<hr>
+<h2>Open a card, when: </h2>
+
+<div class="container">
+  <div class="flip-card" onclick="this.classList.toggle('flipped')">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h3>Case 1</h3>
+      </div>
+      <div class="flip-card-back">
+        <h3>Card 1</h3> <hr>
+        <p>Your text here</p> 
+        <p>Some more text here</p> <hr>
+      </div>
     </div>
-    <div class="flip-card-back">
-      <h1>Card 1</h1> 
-      <p>paragraph</p> 
-      <p>end</p>
+  </div>
+  <div class="flip-card" onclick="this.classList.toggle('flipped')">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h3>Case 2</h3>
+      </div>
+      <div class="flip-card-back">
+        <h3>Card 2</h3> <hr>
+        <p>Your text here</p> 
+        <p>Some more text here</p> <hr>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card" onclick="this.classList.toggle('flipped')">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h3>Case 3</h3>
+      </div>
+      <div class="flip-card-back">
+        <h3>Card 3</h3> <hr>
+        <p>Your text here</p> 
+        <p>Some more text here</p> <hr>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="flip-card" onclick="this.classList.toggle('flipped')">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <h1 style="width:300px;height:300px;" >Click to open</h1>
-      </div>
-      <div class="flip-card-back">
-        <h1>Card 2</h1> 
-        <p>paragraph</p> 
-        <p>end</p>
-      </div>
-    </div>
-  </div>
-
+<div class="container">
   <div class="flip-card" onclick="this.classList.toggle('flipped')">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <h1 style="width:300px;height:300px;" >Click to open</h1>
+        <h3>Case 4</h3>
       </div>
       <div class="flip-card-back">
-        <h1>Card 3</h1> 
-        <p>paragraph</p> 
-        <p>end</p>
+        <h3>Card 4</h3> <hr>
+        <p>Your text here</p> 
+        <p>Some more text here</p> <hr>
       </div>
     </div>
   </div>
-
-  
+  <div class="flip-card" onclick="this.classList.toggle('flipped')">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h3>Case 5</h3>
+      </div>
+      <div class="flip-card-back">
+        <h3>Card 5</h3> <hr>
+        <p>Your text here</p> 
+        <p>Some more text here</p> <hr>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card" onclick="this.classList.toggle('flipped')">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h3>Case 6</h3>
+      </div>
+      <div class="flip-card-back">
+        <h3>Card 6</h3> <hr>
+        <p>Your text here</p> 
+        <p>Some more text here</p> <hr>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="flip-card" onclick="this.classList.toggle('flipped')">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h3>Case 7</h3>
+      </div>
+      <div class="flip-card-back">
+        <h3>Card 7</h3> <hr>
+        <p>Your text here</p> 
+        <p>Some more text here</p> <hr>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card" onclick="this.classList.toggle('flipped')">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h3>Case 8</h3>
+      </div>
+      <div class="flip-card-back">
+        <h3>Card 8</h3> <hr>
+        <p>Your text here</p> 
+        <p>Some more text here</p> <hr>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card" onclick="this.classList.toggle('flipped')">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h3>Case 9</h3>
+      </div>
+      <div class="flip-card-back">
+        <h3>Card 9</h3> <hr>
+        <p>Your text here</p> 
+        <p>Some more text here</p> <hr>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>Credits, date</footer>
 </body>
 </html>
